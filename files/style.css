@@ -1,0 +1,97 @@
+* {
+  font-family: Open Sans;
+}
+html {
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/images/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  width: 640px;
+  justify-content: center;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.eins {
+  min-height: 500px;
+  width: 320px;
+  float: left;
+  padding-top: 30px;
+  background: #013243;
+  text-align: center;
+}
+.eins h1 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+.eins h2 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #86bfd3;
+}
+.eins img {
+  vertical-align: baseline;
+}
+.zwei {
+  min-height: 500px;
+  padding: 30px 40px 0px 40px;
+  width: 240px;
+  float: left;
+  background: #fff;
+  text-align: center;
+}
+.zwei h1 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #333;
+}
+.zwei h2 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #86bfd3;
+}
+.container {
+  text-align: left;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label {
+  width: 100%;
+}
+button {
+  background-color: #013243;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+.psw {
+  font-size: 14px;
+}
+/* Bissl responsive */
+@media only screen and (max-width: 800px) {
+  .main {
+    width: 320px;
+    margin: 0 auto;
+  }
+}
